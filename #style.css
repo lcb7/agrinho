@@ -1,74 +1,80 @@
- <style>
-        
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #333; 
-            line-height: 1.6; 
-        }
-
-        
-        header {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        
-        section {
-            padding: 20px;
-            margin: 20px 0;
-            background-color: #fff;
-            text-align: center; 
-        }
-
        
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333; 
+    line-height: 1.6; 
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
 
-      
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-        footer p {
-            margin: 0;
-        }
+nav {
+    text-align: center;
+}
 
-        
-        img {
-            display: block;
-            margin: 0 auto
-        }
-    </style>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    text-align: center; 
+}
+
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+
+    .credito-imagem {
+        font-size: 0.8em;
+        color: #666; 
+        margin-top: 5px; 
+    }
+    
+}
+
+footer p {
+    margin: 0;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto
+}
