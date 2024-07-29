@@ -10,8 +10,8 @@ body {
 
 
 header {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #2c692e;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -27,11 +27,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f1f1f1;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #b8b8b8;
     text-align: center; 
 }
 
@@ -55,18 +55,11 @@ a:hover {
 
 
 footer {
-    background-color: #333;
+    background-color: #181616;
     color: #fff;
     padding: 20px;
     text-align: center;
 
-
-    .credito-imagem {
-        font-size: 0.8em;
-        color: #666; 
-        margin-top: 5px; 
-    }
-    
 }
 
 footer p {
