@@ -1,16 +1,22 @@
-body {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem; 
+    font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
 }
 
+
 @media (max-width: 600px) {
     body {
-        font-size: 14px;
+        font-size: 0.875rem; 
     }
     
     img {
@@ -24,6 +30,7 @@ header {
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    border-bottom: 3px solid #1e4a1b; 
 }
 
 .agro {
@@ -35,19 +42,18 @@ header {
     height: auto; 
     display: block; 
     margin: 0 auto; 
-    width: 300px; 
-    height: 300px; 
     object-fit: cover; 
 }
 
-
 nav {
     text-align: center;
+    margin-top: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -58,22 +64,32 @@ nav ul li {
 nav ul li a {
     color: #f1f1f1;
     text-decoration: none;
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #388E3C; 
 }
 
 section {
     padding: 20px;
-    margin: 20px 0;
-    background-color: #b8b8b8;
+    margin: 30px 0; 
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
     text-align: center;
 }
 
 a {
     color: #4CAF50;
     text-decoration: none;
+    font-weight: bold; 
 }
 
 a:hover {
     text-decoration: underline;
+    color: #388E3C; 
 }
 
 footer {
@@ -81,8 +97,9 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-top: 3px solid #1e4a1b; 
 }
 
 footer p {
-    margin: 0;
+    margin: 10px 0; 
 }
