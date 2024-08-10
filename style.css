@@ -77,11 +77,12 @@ nav ul li a:hover {
 .square-container {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 0;
     padding-bottom: 100%;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+    background-color:# f0f0f0;
 }
 
 .square-container img {
@@ -90,8 +91,8 @@ nav ul li a:hover {
     left: 50%;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    transform: translate(-50%, -50%);
+    object-fit: cover;
+    transform: translate(-50%, -50%); 
 }
 
 section {
@@ -182,6 +183,6 @@ footer a:hover {
     }
 
     .square-container {
-        max-width: 90%;
+        max-width: 90%; 
     }
 }
