@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #4CAF50; /* Cor principal */
-    --secondary-color: #388E3C; /* Cor secundária */
-    --background-color: #f8f8f8; /* Cor de fundo */
-    --text-color: #333; /* Cor do texto */
-    --header-bg: #2c692e; /* Fundo do cabeçalho */
-    --footer-bg: #181616; /* Fundo do rodapé */
-    --border-color: #ddd; /* Cor da borda */
+    --primary-color: #4CAF50;
+    --secondary-color: #388E3C;
+    --background-color: #f8f8f8;
+    --text-color: #333;
+    --header-bg: #2c692e;
+    --footer-bg: #181616;
+    --border-color: #ddd;
 }
 
 * {
