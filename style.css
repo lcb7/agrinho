@@ -1,11 +1,11 @@
 :root {
-    --cor-principal: #4CAF50;
-    --cor-secundaria: #388E3C;
-    --cor-fundo: #f8f8f8;
-    --cor-texto: #333;
-    --fundo-cabecalho: #2c692e;
-    --fundo-rodape: #181616;
-    --cor-borda: #ddd;
+    --primary-color: #4CAF50;
+    --secondary-color: #388E3C;
+    --background-color: #f8f8f8;
+    --text-color: #333;
+    --header-bg: #2c692e; 
+    --footer-bg: #181616;
+    --border-color: #ddd;
 }
 
 * {
@@ -17,17 +17,17 @@
 body {
     font-size: 1rem;
     font-family: Arial, sans-serif;
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background-color: var(--background-color);
+    color: var(--text-color);
     line-height: 1.6;
 }
 
 header {
-    background-color: var(--fundo-cabecalho);
+    background-color: var(--header-bg);
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-bottom: 3px solid var(--cor-secundaria);
+    border-bottom: 3px solid var(--secondary-color);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: var(--cor-secundaria);
+    color: var(--secondary-color);
 }
 
 .container-quadrado {
@@ -97,29 +97,29 @@ section {
     padding: 20px;
     margin: 30px 0;
     background-color: #ffffff;
-    border: 1px solid var(--cor-borda);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     text-align: center;
 }
 
 a {
-    color: var(--cor-principal);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: var(--cor-secundaria);
+    color: var(--secondary-color);
 }
 
-.botao-contato {
+.contact-button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
     font-size: 1rem;
     color: #fff;
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -127,16 +127,16 @@ a:hover {
     transition: background-color 0.3s ease;
 }
 
-.botao-contato:hover {
-    background-color: var(--cor-secundaria);
+.contact-button:hover {
+    background-color: var(--secondary-color);
 }
 
 footer {
-    background-color: var(--fundo-rodape);
+    background-color: var(--footer-bg);
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-top: 3px solid var(--cor-secundaria);
+    border-top: 3px solid var(--secondary-color);
 }
 
 footer p {
@@ -144,7 +144,7 @@ footer p {
 }
 
 footer a {
-    color: var(--cor-principal);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
 }
