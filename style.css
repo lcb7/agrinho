@@ -1,11 +1,11 @@
 :root {
-    --cor-principal: #4CAF50;
-    --cor-secundaria: #388E3C;
-    --cor-fundo: #f8f8f8;
-    --cor-texto: #333;
-    --fundo-cabecalho: #2c692e;
-    --fundo-rodape: #181616;
-    --cor-borda: #ddd;
+    --primary-color: #4CAF50; /* Cor principal */
+    --secondary-color: #388E3C; /* Cor secundária */
+    --background-color: #f8f8f8; /* Cor de fundo */
+    --text-color: #333; /* Cor do texto */
+    --header-bg: #2c692e; /* Fundo do cabeçalho */
+    --footer-bg: #181616; /* Fundo do rodapé */
+    --border-color: #ddd; /* Cor da borda */
 }
 
 * {
@@ -17,24 +17,24 @@
 body {
     font-size: 1rem;
     font-family: Arial, sans-serif;
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background-color: var(--background-color);
+    color: var(--text-color);
     line-height: 1.6;
 }
 
 header {
-    background-color: var(--fundo-cabecalho);
+    background-color: var(--header-bg);
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-bottom: 3px solid var(--cor-secundaria);
+    border-bottom: 3px solid var(--secondary-color);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.logo-container {
+.container-logo {
     position: absolute;
     top: 20px; 
     left: 10px; 
@@ -71,10 +71,10 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: var(--cor-secundaria);
+    color: var(--secondary-color);
 }
 
-.square-container {
+.container-quadrado {
     width: 100%;
     max-width: 300px;
     height: 0;
@@ -82,37 +82,35 @@ nav ul li a:hover {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
-    background-color:# f0f0f0;
 }
 
-.square-container img {
+.container-quadrado img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: translate(-50%, -50%); 
 }
 
 section {
     padding: 20px;
     margin: 30px 0;
     background-color: #ffffff;
-    border: 1px solid var(--cor-borda);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     text-align: center;
 }
 
 a {
-    color: var(--cor-principal);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: var(--cor-secundaria);
+    color: var(--secondary-color);
 }
 
 .contact-button {
@@ -121,7 +119,7 @@ a:hover {
     margin-top: 10px;
     font-size: 1rem;
     color: #fff;
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -130,15 +128,15 @@ a:hover {
 }
 
 .contact-button:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--secondary-color);
 }
 
 footer {
-    background-color: var(--fundo-rodape);
+    background-color: var(--footer-bg);
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-top: 3px solid var(--cor-secundaria);
+    border-top: 3px solid var(--secondary-color);
 }
 
 footer p {
@@ -146,7 +144,7 @@ footer p {
 }
 
 footer a {
-    color: var(--cor-principal);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -164,7 +162,7 @@ footer a:hover {
         padding: 15px;
     }
 
-    .logo-container {
+    .container-logo {
         position: static;
         margin-bottom: 10px;
     }
@@ -182,7 +180,7 @@ footer a:hover {
         margin: 10px 0;
     }
 
-    .square-container {
-        max-width: 90%; 
+    .container-quadrado {
+        max-width: 90%;
     }
 }
